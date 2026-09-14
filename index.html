@@ -1,11 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mohammed Osama Portfolio</title>
 </head>
+
 <body>
-    <h1>Hello, World!</h1>
+    <center>
+        <h1>Mohammed Osama Portfolio</h1>
+        <p>Professional Web Developer</p>
+    </center>
+    <br>
+    <h2>Aoout Me</h2>
+    <img src="WhatsApp Image 2026-09-13 at 1.54.27 PM.jpeg" width="100">
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque fugiat mollitia sequi. Nam, nesciunt omnis. Nulla,
+        dicta reiciendis! Perferendis quasi temporibus molestiae eius illum! Iste!</p>
+
+    <h3>Skills</h3>
+    <ul>
+        <li>HTML5</li>
+        <li>CSS5</li>
+        <li>JS</li>
+        <li>React</li>
+    </ul>
+
+    <h3>Experience TimeLine</h3>
+
+    <table border="1" width="100%">
+        <caption>
+            <b>Professional Experience Overview</b>
+        </caption>
+
+        <tr>
+            <th>Company</th>
+            <th>Logo</th>
+            <th>Role</th>
+            <th>Key Achievements</th>
+            <th>Dates</th>
+        </tr>
+
+        <tr>
+            <th rowspan="2">TechCrop Solutions</th>
+            <th rowspan="2"><img src="logic-layer.png" width="100"></th>
+            <th>Senior Full Stack Developer</th>
+            <th>
+                <ul>
+                    <li>Lead development of web application</li>
+                    <li>Mentor junior developers</li>
+                    <li>Architect Scable Solution</li>
+                </ul>
+            </th>
+            <th>Jan 2023 - present</th>
+        </tr>
+
+        <tr>
+            <th>Full Stack Developer</th>
+            <th>
+                <ul>
+                    <li>Developed responsive web application</li>
+                </ul>
+            <th>2021 - 2023</th>
+            </th>
+
+        <tr>
+            <th>Digital Agency Pro</th>
+            <th><img src="images.png" width="100"></th>
+            <th>Frontend Developer</th>
+            <th>
+                <ul>
+                    <li>Built User interfaces from mockuos</li>
+                </ul>
+            </th>
+            <th>2019 - 2020</th>
+        </tr>
+
+        <tr>
+            <th>Web Design Studio</th>
+            <th><img src="full-stack-image.png" width="100"></th>
+            <th>junior Web Developer</th>
+            <th>
+                <ul>
+                    <li>Maintanied existing websites</li>
+                </ul>
+            </th>
+            <th>2019 - 2020</th>
+        </tr>
+
+        <tr>
+            <th colspan="5"> Total Experience: 5+ years in web Developer</th>
+        </tr>
+
+        </tr>
+    </table>
+    <br>
+
+
+    <h3>Contact Me</h3>
+    <p>Feel Free to reasch out to me usingfcthe form below. I had love to hear from you!</p>
+
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <br>
+            <label for="firstName"> First Name: *</label>
+            <input type="text" id="firstName" name="firstName">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="lastName"> Last Name: *</label>
+            <input type="test" id="lastName" name="lastName">
+            <br>
+            <br>
+            <label for="email"> Email Address: *</label>
+            <input type="email" id="email" name="email">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Phone"> PhoneNumber: </label>
+            <input type="tel" id="phone" name="phone">
+            <br>
+            <br>
+            <label for="date"> Preferred Meeting Date: </label>
+            <input type="date" id="date" name="date">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="time"> Best Time To Contact: </label>
+            <input type="time" id="time" name="time">
+        </fieldset>
+    </form>
+
+    <br>
+    <br>
+    <br>
+
+    <form>
+        <fieldset>
+            <legend>Progect Details</legend>
+            <br>
+            <label for="ProjectType"> Project Type: *</label>
+            <input type="text" id="ProjectType" name="ProjectType">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <label for="Description"> Project Description: *</label>
+            <textarea id="description" name="description" rows="2"></textarea>
+            <br>
+            <br>
+            <label>Budget Range :</label>
+            <br>
+            <input type="radio" id="budget 1" name="budget" value="under $5000" <label for="budget 1">
+            under$5000</label>
+            <br>
+            <input type="radio" id="budget 2" name="budget" value="5000-10000" <label for="budget 2">
+            $5000-$10000</label>
+            <br>
+            <input type="radio" id="budget 3" name="budget" value="10000-25000" <label for="budget 3">
+            $10000-$25000</label>
+            <br>
+            <input type="radio" id="budget 4" name="budget" value="over $25000" <label for="budget 4"> over
+            $25000</label>
+
+            <br><br>
+            <label>Servies Required(Check all that apply):</label>
+            <br>
+            <input type="checkbox" id="uiux" name="Servies" value="uiux">
+            <label for="uiux"> UiUx</label>
+            <br>
+            <input type="checkbox" id="Frontend" name="Servies" value="Frontend">
+            <label for="Frontend"> Frpntend Developer</label>
+            <br>
+            <input type="checkbox" id="backend" name="Servies" value="backend">
+            <label for="backend"> backend Developer</label>
+            <br>
+            <input type="checkbox" id="hosting" name="Servies" value="hosting">
+            <label for="hosting"> Hosting & Developer</label>
+            <br>
+            <input type="checkbox" id="maitenace" name="Servies" value="maintenance">
+            <label for="maintenance"> Maintenance & Support</label>
+            <br><br>
+
+            <label for="source"> How did you hear about me?</label>
+            <select>
+                <option> Select Source</option>
+                <option> Google</option>
+                <option> Facebook</option>
+                <option> Friend</option>
+            </select>
+
+        </fieldset>
+    </form>
+
+
+
+    <br>
+    <input type="submit" value="Send Message">
+    <input type="reset" value="Clear Form">
+
 </body>
+
 </html>
